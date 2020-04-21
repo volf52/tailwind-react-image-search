@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import CloseIcon from "../assets/icon-x-circle.svg";
 
 interface ImageSearchProps {
     searchText: (txt: string) => void;
@@ -12,7 +11,6 @@ const ImageSearch: React.FC<ImageSearchProps> = ({ searchText }) => {
         e.preventDefault();
         searchText(text);
     };
-    console.log(CloseIcon);
 
     return (
         <div className="max-w-sm rounded overflow-hidden my-10 mx-auto">
