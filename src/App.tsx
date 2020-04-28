@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ImageCard, { ImageHit } from "./components/ImageCard";
 import ImageSearch from "./components/ImageSearch";
 
+// TODO: Change background
 function App() {
     const [images, setImages] = useState([] as ImageHit[]);
     const [isLoading, setIsLoading] = useState(true);
